@@ -1,0 +1,31 @@
+
+* {
+    background-color: bisque;
+}    
+h1 {
+    color: brown;
+    font-size: 64px;
+}
+
+ul {
+    font-size: 24px;
+    list-style-type: circle;
+}
+
+/* unvited link */
+ul a:link {
+    color: black;
+}
+
+ul a:visited {
+    color: tan;
+}
+
+ul a:hover{
+    color: green;
+}
+
+/* selected link */
+ul a:active {
+    color: blue;
+}
