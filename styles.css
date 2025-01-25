@@ -1,7 +1,11 @@
 
 * {
     background-color: bisque;
-}    
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 h1 {
     color: brown;
     font-size: 64px;
