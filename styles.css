@@ -1,16 +1,41 @@
 
 * {
-    background-color: bisque;
+    
 }
 
 body {
+    background: tan;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-h1 {
-    color: brown;
-    font-size: 64px;
+
+.card{
+    /*background-color: bisque;*/
+    width: 500px;
+    margin: 10px auto;
 }
 
+.title {
+    color: brown;
+    /*background: #e3f4ff;*/
+    background-color: bisque;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.list-container {
+    background-color: bisque;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.centered-list{
+    display: inline-block;
+    text-align: left;
+}
 ul {
     font-size: 24px;
     list-style-type: circle;
